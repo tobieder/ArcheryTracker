@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1DFF3E21DA71E700B7653C /* ResultPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DFF3D21DA71E700B7653C /* ResultPageViewController.swift */; };
+		1D206B8221D7AA5A00A40071 /* AuflageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B8121D7AA5A00A40071 /* AuflageTableViewCell.swift */; };
+		1D206B8421D7ADC700A40071 /* Auflage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B8321D7ADC700A40071 /* Auflage.swift */; };
+		1D206B8A21DA262F00A40071 /* GesamtergebnisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B8921DA262F00A40071 /* GesamtergebnisTableViewController.swift */; };
+		1D206B8C21DA34FC00A40071 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B8B21DA34FC00A40071 /* SettingsTableViewController.swift */; };
+		1D206B8F21DA366300A40071 /* EditEMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B8E21DA366300A40071 /* EditEMailViewController.swift */; };
+		1D206B9321DA37B800A40071 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B9221DA37B800A40071 /* Settings.swift */; };
+		1D206B9521DA40A000A40071 /* EditPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D206B9421DA40A000A40071 /* EditPasswordViewController.swift */; };
 		1D28FA9E21BFEA9C000E11C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28FA9D21BFEA9C000E11C4 /* AppDelegate.swift */; };
-		1D28FAA021BFEA9C000E11C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28FA9F21BFEA9C000E11C4 /* ViewController.swift */; };
 		1D28FAA321BFEA9C000E11C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D28FAA121BFEA9C000E11C4 /* Main.storyboard */; };
 		1D28FAA521BFEA9D000E11C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D28FAA421BFEA9D000E11C4 /* Assets.xcassets */; };
 		1D28FAA821BFEA9D000E11C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D28FAA621BFEA9D000E11C4 /* LaunchScreen.storyboard */; };
 		1D28FAB321BFEA9D000E11C4 /* ArcheryScoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28FAB221BFEA9D000E11C4 /* ArcheryScoresTests.swift */; };
+		1D28FABE21BFF8B3000E11C4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28FABD21BFF8B3000E11C4 /* Result.swift */; };
+		1D28FAC021BFFB5A000E11C4 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28FABF21BFFB5A000E11C4 /* ResultTableViewCell.swift */; };
+		1D28FAC421BFFE16000E11C4 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28FAC321BFFE16000E11C4 /* ResultTableViewController.swift */; };
+		1D42D10F21ECB98100278437 /* AddSchuetzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42D10E21ECB98100278437 /* AddSchuetzeViewController.swift */; };
+		1D42D11121ECB9A800278437 /* SchuetzeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42D11021ECB9A800278437 /* SchuetzeTableViewCell.swift */; };
+		1D5F1F4821CA401E00929329 /* TrackingPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F1F4721CA401E00929329 /* TrackingPage1ViewController.swift */; };
+		1D6DAC9921D63B1300AE5F32 /* ResultSetupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6DAC9821D63B1300AE5F32 /* ResultSetupTableViewController.swift */; };
+		1D6DAC9C21D6487C00AE5F32 /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6DAC9B21D6487C00AE5F32 /* EditNameViewController.swift */; };
+		1D6DAC9E21D6494F00AE5F32 /* EditDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6DAC9D21D6494F00AE5F32 /* EditDateViewController.swift */; };
+		1D6DACA021D6497A00AE5F32 /* EditAuflageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6DAC9F21D6497A00AE5F32 /* EditAuflageViewController.swift */; };
+		1D8DBE8321EE4DD800710D3F /* AddSchuetzeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DBE8221EE4DD700710D3F /* AddSchuetzeSettingViewController.swift */; };
+		1D8DBE8521EE507C00710D3F /* ShowSchuetzenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DBE8421EE507C00710D3F /* ShowSchuetzenTableViewController.swift */; };
+		1D8DBE8721EE50FC00710D3F /* ShowSchuetzenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DBE8621EE50FC00710D3F /* ShowSchuetzenTableViewCell.swift */; };
+		1DB76AC721E25CF1006A4FEA /* TrackingPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB76AC621E25CF1006A4FEA /* TrackingPage2ViewController.swift */; };
+		1DB76AC921E25D05006A4FEA /* TrackingPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB76AC821E25D05006A4FEA /* TrackingPage3ViewController.swift */; };
+		1DB76ACB21E25D13006A4FEA /* TrackingPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB76ACA21E25D13006A4FEA /* TrackingPage4ViewController.swift */; };
+		1DB76ACD21E25D1E006A4FEA /* TrackingPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB76ACC21E25D1E006A4FEA /* TrackingPage5ViewController.swift */; };
+		1DB76ACF21E25D28006A4FEA /* TrackingPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB76ACE21E25D28006A4FEA /* TrackingPage6ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D1DFF3D21DA71E700B7653C /* ResultPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPageViewController.swift; sourceTree = "<group>"; };
+		1D206B8121D7AA5A00A40071 /* AuflageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuflageTableViewCell.swift; sourceTree = "<group>"; };
+		1D206B8321D7ADC700A40071 /* Auflage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auflage.swift; sourceTree = "<group>"; };
+		1D206B8921DA262F00A40071 /* GesamtergebnisTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesamtergebnisTableViewController.swift; sourceTree = "<group>"; };
+		1D206B8B21DA34FC00A40071 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		1D206B8E21DA366300A40071 /* EditEMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEMailViewController.swift; sourceTree = "<group>"; };
+		1D206B9221DA37B800A40071 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1D206B9421DA40A000A40071 /* EditPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPasswordViewController.swift; sourceTree = "<group>"; };
 		1D28FA9A21BFEA9C000E11C4 /* ArcheryScores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcheryScores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D28FA9D21BFEA9C000E11C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D28FA9F21BFEA9C000E11C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D28FAA221BFEA9C000E11C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D28FAA421BFEA9D000E11C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D28FAA721BFEA9D000E11C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +68,24 @@
 		1D28FAAE21BFEA9D000E11C4 /* ArcheryScoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcheryScoresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D28FAB221BFEA9D000E11C4 /* ArcheryScoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcheryScoresTests.swift; sourceTree = "<group>"; };
 		1D28FAB421BFEA9D000E11C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D28FABD21BFF8B3000E11C4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1D28FABF21BFFB5A000E11C4 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		1D28FAC321BFFE16000E11C4 /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		1D42D10E21ECB98100278437 /* AddSchuetzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSchuetzeViewController.swift; sourceTree = "<group>"; };
+		1D42D11021ECB9A800278437 /* SchuetzeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchuetzeTableViewCell.swift; sourceTree = "<group>"; };
+		1D5F1F4721CA401E00929329 /* TrackingPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPage1ViewController.swift; sourceTree = "<group>"; };
+		1D6DAC9821D63B1300AE5F32 /* ResultSetupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSetupTableViewController.swift; sourceTree = "<group>"; };
+		1D6DAC9B21D6487C00AE5F32 /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		1D6DAC9D21D6494F00AE5F32 /* EditDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDateViewController.swift; sourceTree = "<group>"; };
+		1D6DAC9F21D6497A00AE5F32 /* EditAuflageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAuflageViewController.swift; sourceTree = "<group>"; };
+		1D8DBE8221EE4DD700710D3F /* AddSchuetzeSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSchuetzeSettingViewController.swift; sourceTree = "<group>"; };
+		1D8DBE8421EE507C00710D3F /* ShowSchuetzenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSchuetzenTableViewController.swift; sourceTree = "<group>"; };
+		1D8DBE8621EE50FC00710D3F /* ShowSchuetzenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSchuetzenTableViewCell.swift; sourceTree = "<group>"; };
+		1DB76AC621E25CF1006A4FEA /* TrackingPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPage2ViewController.swift; sourceTree = "<group>"; };
+		1DB76AC821E25D05006A4FEA /* TrackingPage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPage3ViewController.swift; sourceTree = "<group>"; };
+		1DB76ACA21E25D13006A4FEA /* TrackingPage4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPage4ViewController.swift; sourceTree = "<group>"; };
+		1DB76ACC21E25D1E006A4FEA /* TrackingPage5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPage5ViewController.swift; sourceTree = "<group>"; };
+		1DB76ACE21E25D28006A4FEA /* TrackingPage6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPage6ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D206B8D21DA364700A40071 /* EditSettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D206B8E21DA366300A40071 /* EditEMailViewController.swift */,
+				1D206B9421DA40A000A40071 /* EditPasswordViewController.swift */,
+				1D8DBE8221EE4DD700710D3F /* AddSchuetzeSettingViewController.swift */,
+				1D8DBE8421EE507C00710D3F /* ShowSchuetzenTableViewController.swift */,
+				1D8DBE8621EE50FC00710D3F /* ShowSchuetzenTableViewCell.swift */,
+			);
+			path = EditSettingsViewControllers;
+			sourceTree = "<group>";
+		};
 		1D28FA9121BFEA9C000E11C4 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +139,17 @@
 		1D28FA9C21BFEA9C000E11C4 /* ArcheryScores */ = {
 			isa = PBXGroup;
 			children = (
+				1D206B8D21DA364700A40071 /* EditSettingsViewControllers */,
+				1D6DAC9A21D6485700AE5F32 /* EditItemViewControllers */,
+				1D9A141B21C64F32004AF3BD /* ResultPages */,
 				1D28FA9D21BFEA9C000E11C4 /* AppDelegate.swift */,
-				1D28FA9F21BFEA9C000E11C4 /* ViewController.swift */,
+				1D28FABD21BFF8B3000E11C4 /* Result.swift */,
+				1D206B9221DA37B800A40071 /* Settings.swift */,
+				1D28FABF21BFFB5A000E11C4 /* ResultTableViewCell.swift */,
+				1D28FAC321BFFE16000E11C4 /* ResultTableViewController.swift */,
+				1D6DAC9821D63B1300AE5F32 /* ResultSetupTableViewController.swift */,
+				1D206B8921DA262F00A40071 /* GesamtergebnisTableViewController.swift */,
+				1D206B8B21DA34FC00A40071 /* SettingsTableViewController.swift */,
 				1D28FAA121BFEA9C000E11C4 /* Main.storyboard */,
 				1D28FAA421BFEA9D000E11C4 /* Assets.xcassets */,
 				1D28FAA621BFEA9D000E11C4 /* LaunchScreen.storyboard */,
@@ -94,6 +165,34 @@
 				1D28FAB421BFEA9D000E11C4 /* Info.plist */,
 			);
 			path = ArcheryScoresTests;
+			sourceTree = "<group>";
+		};
+		1D6DAC9A21D6485700AE5F32 /* EditItemViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D6DAC9B21D6487C00AE5F32 /* EditNameViewController.swift */,
+				1D6DAC9D21D6494F00AE5F32 /* EditDateViewController.swift */,
+				1D6DAC9F21D6497A00AE5F32 /* EditAuflageViewController.swift */,
+				1D42D10E21ECB98100278437 /* AddSchuetzeViewController.swift */,
+				1D42D11021ECB9A800278437 /* SchuetzeTableViewCell.swift */,
+				1D206B8121D7AA5A00A40071 /* AuflageTableViewCell.swift */,
+				1D206B8321D7ADC700A40071 /* Auflage.swift */,
+			);
+			path = EditItemViewControllers;
+			sourceTree = "<group>";
+		};
+		1D9A141B21C64F32004AF3BD /* ResultPages */ = {
+			isa = PBXGroup;
+			children = (
+				1D5F1F4721CA401E00929329 /* TrackingPage1ViewController.swift */,
+				1DB76AC621E25CF1006A4FEA /* TrackingPage2ViewController.swift */,
+				1DB76AC821E25D05006A4FEA /* TrackingPage3ViewController.swift */,
+				1DB76ACA21E25D13006A4FEA /* TrackingPage4ViewController.swift */,
+				1DB76ACC21E25D1E006A4FEA /* TrackingPage5ViewController.swift */,
+				1DB76ACE21E25D28006A4FEA /* TrackingPage6ViewController.swift */,
+				1D1DFF3D21DA71E700B7653C /* ResultPageViewController.swift */,
+			);
+			path = ResultPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +296,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D28FAA021BFEA9C000E11C4 /* ViewController.swift in Sources */,
+				1D6DAC9C21D6487C00AE5F32 /* EditNameViewController.swift in Sources */,
+				1DB76AC721E25CF1006A4FEA /* TrackingPage2ViewController.swift in Sources */,
+				1D206B8C21DA34FC00A40071 /* SettingsTableViewController.swift in Sources */,
+				1D1DFF3E21DA71E700B7653C /* ResultPageViewController.swift in Sources */,
+				1D206B8221D7AA5A00A40071 /* AuflageTableViewCell.swift in Sources */,
+				1D206B8421D7ADC700A40071 /* Auflage.swift in Sources */,
+				1D8DBE8521EE507C00710D3F /* ShowSchuetzenTableViewController.swift in Sources */,
+				1D28FABE21BFF8B3000E11C4 /* Result.swift in Sources */,
+				1DB76ACF21E25D28006A4FEA /* TrackingPage6ViewController.swift in Sources */,
+				1D206B8A21DA262F00A40071 /* GesamtergebnisTableViewController.swift in Sources */,
+				1D206B9521DA40A000A40071 /* EditPasswordViewController.swift in Sources */,
+				1D8DBE8321EE4DD800710D3F /* AddSchuetzeSettingViewController.swift in Sources */,
+				1DB76ACB21E25D13006A4FEA /* TrackingPage4ViewController.swift in Sources */,
+				1D5F1F4821CA401E00929329 /* TrackingPage1ViewController.swift in Sources */,
+				1D28FAC421BFFE16000E11C4 /* ResultTableViewController.swift in Sources */,
+				1D8DBE8721EE50FC00710D3F /* ShowSchuetzenTableViewCell.swift in Sources */,
+				1D6DAC9E21D6494F00AE5F32 /* EditDateViewController.swift in Sources */,
+				1D206B9321DA37B800A40071 /* Settings.swift in Sources */,
+				1DB76ACD21E25D1E006A4FEA /* TrackingPage5ViewController.swift in Sources */,
+				1DB76AC921E25D05006A4FEA /* TrackingPage3ViewController.swift in Sources */,
+				1D42D10F21ECB98100278437 /* AddSchuetzeViewController.swift in Sources */,
+				1D28FAC021BFFB5A000E11C4 /* ResultTableViewCell.swift in Sources */,
+				1D6DAC9921D63B1300AE5F32 /* ResultSetupTableViewController.swift in Sources */,
+				1D42D11121ECB9A800278437 /* SchuetzeTableViewCell.swift in Sources */,
+				1D6DACA021D6497A00AE5F32 /* EditAuflageViewController.swift in Sources */,
 				1D28FA9E21BFEA9C000E11C4 /* AppDelegate.swift in Sources */,
+				1D206B8F21DA366300A40071 /* EditEMailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
